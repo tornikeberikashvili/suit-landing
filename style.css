@@ -1,0 +1,380 @@
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+header button {
+  border: 1px solid #172339;
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 1.4em;
+  line-height: 2em;
+  border-radius: 6px;
+  border: 1px solid #172339;
+  background: #faf8f6;
+}
+
+header button :hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pattern1-div {
+  background-image: url(./icons-social/pattern-curved-line-1.svg);
+  width: 24rem;
+  height: 2rem;
+  position: relative;
+  top: 7rem;
+  right: -6rem;
+}
+
+h1 {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 3.8em;
+  line-height: 1.1em;
+  color: #172339;
+  margin-top: 8rem;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+.marketing-p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 2em;
+  width: 37ch;
+  margin-top: 3.2rem;
+  color: #49566d;
+}
+
+.main-text button {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 1.8em;
+  line-height: 2.5em;
+  color: #faf8f6;
+  background-color: black;
+  border-radius: 6px;
+  margin-top: 3.2rem;
+}
+
+.img-mobile {
+  background-image: url(img-mob/image-hero-landscape.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 34.3rem;
+  height: 24rem;
+  border-radius: 15px;
+  margin-top: 5.5rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin-top: 5.6rem;
+}
+
+.about-h2 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  text-align: center;
+  color: #172339;
+}
+
+.about-p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  letter-spacing: 2.5px;
+  color: #49566d;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.man {
+  background-image: url(man/image-jeremy-small.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25.2rem;
+  height: 41rem;
+  margin-top: 5.6rem;
+  z-index: 2;
+}
+
+.stick {
+  background-image: url(icons-social/pattern-curved-line-2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10rem;
+  height: 8rem;
+  margin-top: 28rem;
+}
+
+.blue-div {
+  background: #172339;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  margin-top: -24rem;
+  border-radius: 15px;
+}
+
+h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  text-align: center;
+  color: #faf8f6;
+  margin-top: 3.7rem;
+}
+
+.blue-p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: #f3ede7;
+  margin-top: 4rem;
+  width: 32ch;
+}
+
+h4 {
+  font-family: "Epilogue";
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: #faf8f6;
+  margin-top: 4rem;
+}
+
+.cmo {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #f3ede7;
+  margin-bottom: 6.4rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f3ede7;
+}
+
+.logo-footer {
+  background-image: url(icons-social/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 10rem;
+  height: 3.2rem;
+  margin-top: 5.6rem;
+}
+
+.footer-p {
+  font-family: "Epilogue";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 3.2rem;
+  text-align: center;
+  color: #49566d;
+  margin-top: 3.3rem;
+}
+
+.social {
+  display: flex;
+  gap: 2.8rem;
+  margin-top: 3.6rem;
+  margin-bottom: 8.1rem;
+}
+
+@media (min-width: 48rem) {
+  header {
+    gap: 37rem;
+  }
+
+  .pattern1-div {
+    width: 25rem;
+    right: -20rem;
+  }
+
+  .main-text {
+    z-index: 2;
+  }
+
+  .next-text {
+    display: flex;
+    position: relative;
+  }
+
+  h1 {
+    font-size: 5.6rem;
+    font-weight: 6.4rem;
+    width: 22ch;
+  }
+
+  .img-mobile {
+    background-image: url(img-mob/image-hero-portrait.png);
+    width: 28.1rem;
+    height: 48.2rem;
+    position: absolute;
+    z-index: 1;
+    right: 0.5rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: revert;
+    margin-top: 17rem;
+    gap: 13rem;
+  }
+
+  article {
+    position: absolute;
+    bottom: -111rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .blue-div {
+    max-width: 69rem;
+  }
+
+  .blue-p {
+    width: 55ch;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 16.5rem;
+    padding: 57rem 0 2rem;
+    margin-top: 49rem;
+  }
+}
+
+@media (min-width: 90rem) {
+  header button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+  main {
+    flex-direction: row;
+    justify-content: center;
+    gap: 9rem;
+  }
+
+  .main-text button:hover {
+    background: linear-gradient(
+      135deg,
+      #a060ff 0%,
+      #cb30e3 49.21%,
+      #ffa84e 100%
+    );
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 7.2rem;
+    line-height: 7.8rem;
+    width: 20.3ch;
+  }
+
+  .img-mobile {
+    width: 35rem;
+    height: 60rem;
+  }
+  .about {
+    flex-direction: column;
+    gap: 6.3rem;
+  }
+
+  article {
+    width: 100%;
+    bottom: -66rem;
+  }
+
+  .blue-div {
+    max-width: 110rem;
+    height: 54rem;
+    flex-direction: revert;
+    justify-content: right;
+    gap: 5.2rem;
+  }
+
+  .blue-div-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .blue-p {
+    width: 33ch;
+    text-align: left;
+  }
+
+  .stick {
+    margin-top: -20rem;
+  }
+  .man {
+    background-image: url(./man/image-jeremy-large.png);
+    width: 37.5rem;
+    height: 61rem;
+    position: relative;
+    top: 30rem;
+    left: -22rem;
+  }
+
+  footer {
+    padding: 46rem 0 0;
+    gap: 39rem;
+  }
+
+  .icons svg {
+    fill: #84878f;
+  }
+}
